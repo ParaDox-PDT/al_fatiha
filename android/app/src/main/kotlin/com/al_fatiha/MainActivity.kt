@@ -1,4 +1,4 @@
-package com.example.default_project
+package com.al_fatiha
 
 import io.flutter.embedding.android.FlutterActivity
 

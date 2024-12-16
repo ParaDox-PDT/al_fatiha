@@ -1,4 +1,4 @@
-import 'package:default_project/data/model/default_model.dart';
+import 'package:al_fatiha/data/model/default_model.dart';
 import 'package:hive/hive.dart';
 
 final class LocaleStorage {

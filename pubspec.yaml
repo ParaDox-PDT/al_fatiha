@@ -1,4 +1,4 @@
-name: default_project
+name: al_fatiha
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -25,6 +25,9 @@ dependencies:
   go_router: ^14.2.7
   intl: ^0.19.0
   change_app_package_name: ^1.4.0
+  lottie: ^3.0.0
+  youtube_player_flutter: ^9.1.1
+  voice_message_package: ^2.2.1
 
 dev_dependencies:
   flutter_test:
@@ -41,7 +44,12 @@ flutter:
     - assets/icons/
 
   fonts:
-    - family: Sriracha
+    - family: Golos
       fonts:
-        - asset: assets/fonts/Sriracha/Sriracha-Regular.ttf
+        - asset: assets/fonts/Golos/GolosText-Black.ttf
+        - asset: assets/fonts/Golos/GolosText-Bold.ttf
+        - asset: assets/fonts/Golos/GolosText-ExtraBold.ttf
+        - asset: assets/fonts/Golos/GolosText-Medium.ttf
+        - asset: assets/fonts/Golos/GolosText-Regular.ttf
+        - asset: assets/fonts/Golos/GolosText-SemiBold.ttf
           style: italic

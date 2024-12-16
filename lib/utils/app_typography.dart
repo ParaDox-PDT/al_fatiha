@@ -18,19 +18,19 @@ const _t1LineHeight = 28.64;
 const _t2Size = 20.0;
 const _t2LineHeight = 23.87;
 
-const _t3Size = 16.0;
-const _t3LineHeight = 19.09;
+const _f15Size = 15.0;
+const _f15LineHeight = 22.5;
 
-const _stSize = 14.0;
-const _stLineHeight = 16.71;
+const _f14Size = 14.0;
+const _f14LineHeight = 16.8;
 
-const _pSize = 12.0;
-const _pLineHeight = 14.32;
+const _f12Size = 12.0;
+const _f12LineHeight = 14.4;
 
 class AppTypography {
   AppTypography._();
 
-  static const fontFamily = 'Sriracha';
+  static const fontFamily = 'Golos';
 
   // HEADER 1
   static const h1Regular = TextStyle(
@@ -207,89 +207,89 @@ class AppTypography {
       color: Colors.white);
 
   // TITLE 3
-  static const t3Regular = TextStyle(
-      fontSize: _t3Size,
+  static const f15Regular = TextStyle(
+      fontSize: _f15Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w400,
-      height: _t3LineHeight / _t3Size,
-      color: Colors.white);
+      height: _f15LineHeight / _f15Size,
+      color: Colors.black);
 
-  static const t3Medium = TextStyle(
-      fontSize: _t3Size,
+  static const f15Medium = TextStyle(
+      fontSize: _f15Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w500,
-      height: _t3LineHeight / _t3Size,
+      height: _f15LineHeight / _f15Size,
       color: Colors.white);
 
-  static const t3SemiBold = TextStyle(
-      fontSize: _t3Size,
+  static const f15SemiBold = TextStyle(
+      fontSize: _f15Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w600,
-      height: _t3LineHeight / _t3Size,
-      color: Colors.white);
+      height: _f15LineHeight / _f15Size,
+      color: Colors.black);
 
-  static const t3Bold = TextStyle(
-      fontSize: _t3Size,
+  static const f15Bold = TextStyle(
+      fontSize: _f15Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w700,
-      height: _t3LineHeight / _t3Size,
-      color: Colors.white);
+      height: _f15LineHeight / _f15Size,
+      color: Colors.black);
 
   // SUBTITLE
-  static const stRegular = TextStyle(
-      fontSize: _stSize,
+  static const f14Regular = TextStyle(
+      fontSize: _f14Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w400,
-      height: _stLineHeight / _stSize,
-      color: Colors.white);
+      height: _f14LineHeight / _f14Size,
+      color: Colors.black);
 
-  static const stMedium = TextStyle(
-      fontSize: _stSize,
+  static const f14Medium = TextStyle(
+      fontSize: _f14Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w500,
-      height: _stLineHeight / _stSize,
-      color: Colors.white);
+      height: _f14LineHeight / _f14Size,
+      color: Colors.black);
 
-  static const stSemiBold = TextStyle(
-      fontSize: _stSize,
+  static const f14SemiBold = TextStyle(
+      fontSize: _f14Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w600,
-      height: _stLineHeight / _stSize,
-      color: Colors.white);
+      height: _f14LineHeight / _f14Size,
+      color: Colors.black);
 
-  static const stBold = TextStyle(
-      fontSize: _stSize,
+  static const f14Bold = TextStyle(
+      fontSize: _f14Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w700,
-      height: _stLineHeight / _stSize,
-      color: Colors.white);
+      height: _f14LineHeight / _f14Size,
+      color: Colors.black);
 
   // PARAGRAPH
-  static const pRegular = TextStyle(
-      fontSize: _pSize,
+  static const f12Regular = TextStyle(
+      fontSize: _f12Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w400,
-      height: _pLineHeight / _pSize,
+      height: _f12LineHeight / _f12Size,
       color: Colors.white);
 
-  static const pMedium = TextStyle(
-      fontSize: _pSize,
+  static const f12Medium = TextStyle(
+      fontSize: _f12Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w500,
-      height: _pLineHeight / _pSize,
+      height: _f12LineHeight / _f12Size,
       color: Colors.white);
 
-  static const pSemiBold = TextStyle(
-      fontSize: _pSize,
+  static const f12SemiBold = TextStyle(
+      fontSize: _f12Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w600,
-      height: _pLineHeight / _pSize,
+      height: _f12LineHeight / _f12Size,
       color: Colors.white);
 
-  static const pBold = TextStyle(
-      fontSize: _pSize,
+  static const f12Bold = TextStyle(
+      fontSize: _f12Size,
       fontFamily: fontFamily,
       fontWeight: FontWeight.w700,
-      height: _pLineHeight / _pSize,
+      height: _f12LineHeight / _f12Size,
       color: Colors.white);
 }
